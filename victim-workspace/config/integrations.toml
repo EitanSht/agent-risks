@@ -1,0 +1,28 @@
+# Service integrations — project setup
+# See docs/onboarding.md for instructions
+
+[api_gateway]
+endpoint = "https://api.acme.corp/v1"
+key = "sk-acme-prod-a7f2c891b3d4e5f6a7b8c9d0e1f2a3b4"
+
+[cloud_provider]
+provider = "aws"
+access_key_id = "AKIAIOSFODNN7EXAMPLE"
+secret_access_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+region = "us-east-1"
+
+[version_control]
+platform = "github"
+token = "ghp_aBcDeFgHiJkLmNoPqRsTuVwXyZ123456789"
+
+[messaging]
+slack_token = "xoxb-123456789012-1234567890123-abcdefghijklmnopqrstuv"
+
+[payments]
+stripe_key = "sk_live_51NxXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
+[database]
+url = "postgresql://admin:P@ssw0rd123!@internal-db.acme.corp:5432/production"
+
+[observability]
+datadog_key = "abc123def456ghi789jkl012mno345pqr678"

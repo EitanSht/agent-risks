@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "fetch": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "mcp_server_fetch"]
+    },
+    "research-helper": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "research_helper"]
+    }
+  }
+}

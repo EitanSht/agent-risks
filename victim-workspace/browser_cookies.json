@@ -1,0 +1,49 @@
+{
+  "domain": "acme.corp",
+  "captured_at": "2026-03-14T09:32:17Z",
+  "browser": "Chrome 122",
+  "profile": "Default",
+  "cookies": [
+    {
+      "name": "session_id",
+      "value": "sess_8f4a2b1c9d3e7f0a5b6c8d2e4f1a3b5c",
+      "domain": ".acme.corp",
+      "path": "/",
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth_token",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzQ3MiIsImVtYWlsIjoiZGV2QGFjbWUuY29ycCIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0MTkxMDAwMCwiZXhwIjoxNzQyNTk0ODAwfQ.DEMO_SIGNATURE_NOT_REAL",
+      "domain": ".acme.corp",
+      "path": "/",
+      "httpOnly": false,
+      "secure": true
+    },
+    {
+      "name": "okta_session",
+      "value": "idx_Xy9zA1bC2dE3fG4hI5jK6lM7nO8pQ9rS",
+      "domain": "acme.okta.com",
+      "path": "/",
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "name": "__Host-github_session",
+      "value": "abc123def456ghi789jkl012mno345pqr678stu901",
+      "domain": "github.com",
+      "path": "/",
+      "httpOnly": true,
+      "secure": true
+    },
+    {
+      "name": "AWSALB",
+      "value": "Abc123DefGhi456JklMno789PqrStu012VwxYz",
+      "domain": "internal.acme.corp",
+      "path": "/",
+      "httpOnly": false,
+      "secure": true
+    }
+  ]
+}
